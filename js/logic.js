@@ -177,6 +177,6 @@ submitButton.addEventListener("click", function () {
   localStorage.setItem("highScores", JSON.stringify(highScoresList));
   // go to highscores page
   window.location.href =
-    "file:///Users/huizhao/bootcamp/quize/highscores.html";
+    "/highscores.html";
   //window.location.href = "/starter/highscores.html";
 });
